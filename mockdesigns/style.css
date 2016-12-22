@@ -30,6 +30,12 @@ a li:hover {
   color: #000;
 }
 
+.back-to-top {
+  color: #000;
+  font-size: 1.4em;
+  margin: 10px;
+}
+
 /*Header*/
 .main-header {
   display: flex;
