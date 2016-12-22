@@ -19,11 +19,7 @@ body {
 /*Links*/
 a {
   text-decoration: none;
-  color: black;
-}
-
-a li:visited {
-  color: black;
+  color: #fff;
 }
 
 a li:hover {
@@ -38,6 +34,7 @@ a li:hover {
   width: 100%;
   background-color: #1B1E1F;
   opacity: 0.8;
+  margin-bottom: 30px;
 }
 .page-title {
   margin: 20px 0 20px 20px;
@@ -68,41 +65,26 @@ a li:hover {
   opacity: 1.0;
 }
 
-/*Content Wrapper*/
-.content-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
 /*Section - Photo gallery*/
 .section-image-gallery {
   width: 90%;
-  height: 750px;
+  margin: 0 auto;
 }
 
 .gallery-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: inherit;
-  height: inherit;
+  column-count: 3;
 }
 
 .image {
   background-color: #f9f9f9;
-  width: inherit;
-  height: inherit;
-  display: inline-block;
-  display: none;
+  width: 550px;
+  height: 310px;
+  margin: 30px;
 }
 
-.image1 {
-  display: inline-block;
-}
-
-.gallery-wrapper img {
-  max-width: 100%;
-  max-height: 100%
+.image-images {
+  width: 100%;
+  height: auto;
 }
 
 /*About Page*/
