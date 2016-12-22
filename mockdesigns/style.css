@@ -2,6 +2,14 @@ html {
   font-family: 'Quicksand', sans-serif;
   font-size: 62.5%;
   background-color: #f9f9f9;
+  height: 100%;
+}
+
+.background-img {
+  margin: 0;
+  background: url(img/dslr/8.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
 }
 
 /*Links*/
@@ -19,25 +27,41 @@ a li:hover {
 }
 
 /*Header*/
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  background-color: #1B1E1F;
+  opacity: 0.8;
+}
 .page-title {
-  margin: 20px 0 50px 20px;
-  font-size: 2.5em;
+  margin: 20px 0 20px 20px;
+  font-size: 2.8em;
+  color: white;
+  font-weight: lighter;
+  opacity: 1.0;
 }
 
 /*Body - Navigation*/
 .main-nav {
-  width: 180px;
+  /*width: 500px;*/
 }
 
 .main-nav-list {
+  display: flex;
+  flex-direction: row;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .main-nav-list-item {
   margin: 0 20px 20px 20px;
-  font-size: 1.5em;
+  font-size: 1.8em;
+  color: white;
+  opacity: 1.0;
 }
 
 /*Content Wrapper*/
