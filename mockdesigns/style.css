@@ -12,11 +12,7 @@ body {
 /*Links*/
 a {
   text-decoration: none;
-  color: #000;
-}
-
-a li:visited {
-  color: #000;
+  color: #fff;
 }
 
 a li:hover {
