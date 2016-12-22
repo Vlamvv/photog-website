@@ -57,13 +57,15 @@ a li:hover {
   color: white;
 }
 
-/*Content Wrapper*/
-/*.content-wrapper {
-  display: flex;
-  justify-content: space-between;
-}*/
-
 /*Section - Photo gallery*/
+.section-image-gallery-index {
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .section-image-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -75,20 +77,15 @@ a li:hover {
 .image {
   background-color: #f9f9f9;
   width: 550px;
-  /*height: 281px;*/
-  margin: 10px;
+  margin: 0 0 20px 0;
 }
 
 .image img {
   max-width: 100%;
-  max-height: 100%
+  height: auto;
 }
 
 /*About Page*/
-.content-wrapper-about {
-  display: flex;
-}
-
 .about {
   margin-right: 300px;
 }
@@ -99,8 +96,10 @@ a li:hover {
 }
 
 .about-content {
-  width: 500px;
+  display: flex;
+  width: 90%;
   font-size: 1.4em;
+  margin: 0 auto;
 }
 
 .about-contact-title {
@@ -111,4 +110,5 @@ a li:hover {
   width: 640px;
   height: 360px;
   border: 2px solid black;
+  margin-right: 100px;
 }
